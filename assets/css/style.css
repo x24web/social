@@ -1,9 +1,9 @@
 /* Global */
 * {
-  outline: none;
+  outline: none !important;
 }
 *:active, *:focus {
-  outline: none;
+  outline: none !important;
 }
 
 body {
@@ -173,7 +173,7 @@ a:hover {
   border: none;
   background: #0099ff;
   border-radius: 30px;
-  padding: 2px 30px;
+  padding: 8px 30px;
   color: #fff;
   font-size: 14px;
   transition: all 0.3s;
@@ -913,7 +913,7 @@ footer .copyright {
   margin-left: 5px;
 }
 
-textarea {
+.newpst-input textarea {
   border: 1px solid #eeeeee;
   border-radius: 6px 6px 0 0;
   padding: 10px;
@@ -921,16 +921,14 @@ textarea {
   border-bottom: 0;
   resize: none;
 }
-
-.fileContainer {
+.newpst-input .fileContainer {
   color: #d8d8d8;
   font-size: 11px;
   margin: 0 0 0 5px;
   position: relative;
   text-transform: capitalize;
 }
-
-form button {
+.newpst-input form button {
   border: medium none;
   color: #fff;
   font-size: 13px;
@@ -939,14 +937,12 @@ form button {
   border-radius: 4px;
   background: #088dcd;
 }
-
-.attachments .fileContainer [type=file] {
+.newpst-input .fileContainer [type=file] {
   right: 6px;
   top: -18px;
   width: 20px;
 }
-
-.fileContainer [type=file] {
+.newpst-input .fileContainer [type=file] {
   cursor: pointer;
   display: block;
   filter: alpha(opacity=0);

@@ -1,9 +1,9 @@
 $color: #2c57e4;
 /* Global */
 *{
-  outline: none;
+  outline: none !important;
   &:active,&:focus{
-    outline: none;
+    outline: none !important;
   }
 }
 body{
@@ -160,7 +160,7 @@ a:hover {
           border: none;
           background: #0099ff;
           border-radius: 30px;
-          padding: 2px 30px;
+          padding: 8px 30px;
           color: #fff;
           font-size: 14px;
           transition: all 0.3s;
@@ -836,7 +836,7 @@ footer .copyright {
   display: inline-block;
   margin-left: 5px;
 }
-
+.newpst-input{
 textarea {
   border: 1px solid #eeeeee;
   border-radius: 6px 6px 0 0;
@@ -862,7 +862,7 @@ form button {
   background: #088dcd;
 
 }
-.attachments .fileContainer [type="file"] {
+.fileContainer [type="file"] {
   right: 6px;
   top: -18px;
   width: 20px;
@@ -878,5 +878,6 @@ form button {
   top: 0;
   width: 100%;
   overflow: hidden;
+}
 }
 /* Shortcut */
