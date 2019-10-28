@@ -827,13 +827,14 @@ a:hover {
 }
 
 .attachments > ul {
-  list-style: outside none none;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
   margin-bottom: 0;
   padding-left: 0;
 }
 
 .attachments li {
-  display: inline-block;
   margin-left: 5px;
 }
 .newpst-input{
