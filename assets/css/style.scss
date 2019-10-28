@@ -784,15 +784,6 @@ a:hover {
 /* End NavUser */
 
 /* content */
-.center-meta{
-  background: #fdfdfd none repeat scroll 0 0;
-  border: 1px solid #ede9e9;
-  border-radius: 5px;
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 17px;
-  padding: 25px;
-}
 .new-postbox{
   display: flex;
   width: 100%;
@@ -827,7 +818,8 @@ a:hover {
 }
 .attachments {
   border: 1px solid #eee;
-  display: block;
+  display: flex;
+  justify-content: flex-end;
   padding: 10px;
   text-align: right;
   border-top: 0;
@@ -1175,6 +1167,7 @@ form button {
   }
 }
 @media screen and (max-width: 640px){
+
   .we-comment {
     width: 50% !important;
   }
