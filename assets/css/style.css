@@ -1209,6 +1209,7 @@ a:hover {
 }
 .post-media .coment-area .we-comet li.post-comment .comet-avatar {
   width: 6%;
+  display: block;
 }
 .post-media .coment-area .we-comet li.post-comment .comet-avatar img {
   width: 35px;
