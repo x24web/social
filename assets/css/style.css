@@ -1047,21 +1047,19 @@ a:hover {
 }
 
 .post-media .user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   margin-bottom: 15px;
 }
 .post-media .user-info figure {
-  display: inline-block;
   margin-bottom: 0;
-  vertical-align: middle;
-  width: 8%;
 }
 .post-media .user-info figure img {
   border-radius: 50%;
 }
 .post-media .user-info .user-name {
-  display: inline-block;
   padding-left: 10px;
-  vertical-align: middle;
   width: 90%;
 }
 .post-media .user-info .user-name > div {
@@ -1244,6 +1242,12 @@ a:hover {
 }
 .post-media .coment-area .we-comet li.post-comment .post-comt-box button {
   display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .we-comment {
+    width: 50% !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
