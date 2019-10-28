@@ -1238,6 +1238,15 @@ a:hover {
 }
 
 @media screen and (max-width: 640px) {
+  .new-postbox .image-postbox {
+    display: none;
+  }
+
+  .newpst-input {
+    width: 200%;
+    margin: -15px;
+  }
+
   .we-comment {
     width: 50% !important;
   }
