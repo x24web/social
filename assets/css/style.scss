@@ -1137,6 +1137,7 @@ form button {
           }
         }
         &.post-comment{
+          display: flex;
           .comet-avatar{
             display: inline-block;
             max-width: 6%;
@@ -1176,5 +1177,8 @@ form button {
 @media screen and (max-width: 640px){
   .we-comment {
     width: 50% !important;
+  }
+  .post-media .coment-area .we-comet li ul {
+    margin-left: 20px;
   }
 }

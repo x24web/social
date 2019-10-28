@@ -1212,6 +1212,9 @@ a:hover {
 .post-media .coment-area .we-comet li .showmore:hover {
   border-bottom: 1px solid #2c57e4;
 }
+.post-media .coment-area .we-comet li.post-comment {
+  display: flex;
+}
 .post-media .coment-area .we-comet li.post-comment .comet-avatar {
   display: inline-block;
   max-width: 6%;
@@ -1247,6 +1250,10 @@ a:hover {
 @media screen and (max-width: 640px) {
   .we-comment {
     width: 50% !important;
+  }
+
+  .post-media .coment-area .we-comet li ul {
+    margin-left: 20px;
   }
 }
 
