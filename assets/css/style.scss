@@ -918,6 +918,7 @@ form button {
       display: flex;
       align-items: center;
       margin-bottom: 20px;
+      flex-wrap: wrap;
       i{
         display: inline-block;
         font-size: 16px;
@@ -1178,5 +1179,29 @@ form button {
   }
   .post-media .coment-area .we-comet li ul {
     margin-left: 20px;
+  }
+}
+.profile-page{
+  .bg-profile{
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .img-profile{
+    float: left;
+    border-radius: 50%;
+    margin-top: -5%;
+    border: 3px solid #eee;
+  }
+  .nav{
+    padding: 10px 0px 10px 10px;
+    .nav-item{
+      margin-left: 8px;
+      border-radius: 50px;
+      a{
+        color: #fff;
+        font-size: 18px;
+      }
+    }
   }
 }
