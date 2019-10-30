@@ -14,7 +14,6 @@
     <title>Social Network</title>
   </head>
   <body>
-    <!-- Start Nav Bar -->
     <!--Navbar -->
     <main class="navbar-mobile"></main>
     <header class="Navbar-user">
@@ -41,6 +40,25 @@
       <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
     </header>
     <!-- End Nav Bar -->
+    <div class="profile-page">
+      <img class="bg-profile" src="assets/img/profile/top-header1.jpg" alt="">
+      <div class="d-flex">
+        <div class="container">
+          <img class="img-profile" src="assets/img/profile/author-main1.jpg" alt="">        
+          <ul class="nav">
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="#"><i class="fas fa-user-plus"></i> Follow</a>
+            </li>
+            <li class="nav-item bg-primary ml-auto">
+              <a class="nav-link" href="#"><i class="fas fa-user-plus"></i> Follow</a>
+            </li>
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Message</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <!-- Start News Feed -->
     <section class="py-4">
       <div class="gap">
@@ -50,40 +68,37 @@
               <div class="row">
                 <div class="col-lg-3 d-lg-block d-none">
                   <div class="widget">
-										<h4 class="widget-title">Shortcuts</h4>
+                    <h4 class="widget-title">Socials</h4>
+                    <ul class="socials">
+                      <li class="facebook">
+                        <a href="#"><span>facebook</span><i class="fab fa-facebook-f"></i> <span>45 likes</span></a>
+                      </li>
+                      <li class="twitter">
+                        <a href="#"><span>twitter</span><i class="fab fa-twitter"></i><span>25 likes</span></a>
+                      </li>
+                      <li class="instagram">
+                        <a href="#"><span>instagram</span><i class="fab fa-instagram"></i><span>35 likes</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="widget">
+										<h4 class="widget-title">Profile Info</h4>
 										<ul class="naves">
 											<li>
 												<i class="ti-clipboard"></i>
-												<a href="newsfeed.html">News feed</a>
+                        <a class="font-weight-bolder">About Me</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus veritatis saepe, magni architecto velit nam obcaecati itaque ratione doloribus distinctio.</p>
 											</li>
 											<li>
-												<i class="ti-mouse-alt"></i>
-                        <a href="inbox.html">Inbox</a>
+                        <i class="ti-mouse-alt"></i>
+                        <a class="font-weight-bolder">Favourite TV Shows:</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente qui aspernatur earum assumenda placeat!</p>
                       </li>
                       <li>
 												<i class="ti-bell"></i>
-												<a href="notifications.html">Notifications</a>
+                        <a class="font-weight-bolder">Favourite Jobs:</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae asperiores doloremque dicta.</p>
                       </li>
-											<li>
-												<i class="ti-files"></i>
-												<a href="fav-page.html">My pages</a>
-											</li>
-											<li>
-												<i class="ti-user"></i>
-												<a href="timeline-friends.html">friends</a>
-											</li>
-											<li>
-												<i class="ti-image"></i>
-												<a href="timeline-photos.html">images</a>
-											</li>
-											<li>
-												<i class="ti-video-camera"></i>
-												<a href="timeline-videos.html">videos</a>
-											</li>
-											<li>
-												<i class="ti-comments-smiley"></i>
-												<a href="messages.html">Messages</a>
-											</li>
 										</ul>
                   </div>
                   <div class="widget">
@@ -434,39 +449,49 @@
                 </div>
                 <div class="col-lg-3 d-lg-block d-none">
                   <div class="widget">
-                    <h4 class="widget-title">Trend Post Job</h4>
+                    <h4 class="widget-title">My Friends</h4>
                     <ul class="naves">
                       <li>
-                        <i class="ti-new-window"></i>
-                        <a href="newsfeed.html">News feed</a>
+                        <figure><img src="assets/img/frineds/friend-avatar.jpg" alt=""></figure>
+                        <div class="friend-meta">
+                          <h4><a href="ProfilePageFriends.html">Kelly Bill</a></h4>
+                          <a href="#">Online</a>
+                        </div>
                       </li>
                       <li>
-                        <i class="ti-new-window"></i>
-                        <a href="inbox.html">Inbox</a>
+                        <figure><img src="assets/img/frineds/friend-avatar2.jpg" alt=""></figure>
+                        <div class="friend-meta">
+                          <h4><a href="ProfilePageFriends.html">Salma Mohamed</a></h4>
+                          <a href="#">Offline</a>
+                        </div>
                       </li>
                       <li>
-                        <i class="ti-new-window"></i>
-                        <a href="notifications.html">Notifications</a>
+                        <figure><img src="assets/img/frineds/friend-avatar3.jpg" alt=""></figure>
+                        <div class="friend-meta">
+                          <h4><a href="ProfilePageFriends.html">Alaa El Din</a></h4>
+                          <a href="#">Online</a>
+                        </div>
                       </li>
                       <li>
-                        <i class="ti-new-window"></i>
-                        <a href="fav-page.html">My pages</a>
+                        <figure><img src="assets/img/frineds/friend-avatar4.jpg" alt=""></figure>
+                        <div class="friend-meta">
+                          <h4><a href="ProfilePageFriends.html">Eman Khaled</a></h4>
+                          <a href="#">Online</a>
+                        </div>
                       </li>
                       <li>
-                        <i class="ti-new-window"></i>
-                        <a href="timeline-friends.html">friends</a>
+                        <figure><img src="assets/img/frineds/friend-avatar5.jpg" alt=""></figure>
+                        <div class="friend-meta">
+                          <h4><a href="ProfilePageFriends.html">Adham Amr</a></h4>
+                          <a href="#">offline</a>
+                        </div>
                       </li>
                       <li>
-                        <i class="ti-new-window"></i>
-                        <a href="timeline-photos.html">images</a>
-                      </li>
-                      <li>
-                        <i class="ti-new-window"></i>
-                        <a href="timeline-videos.html">videos</a>
-                      </li>
-                      <li>
-                        <i class="ti-new-window"></i>
-                        <a href="post.html">Messages</a>
+                        <figure><img src="assets/img/frineds/friend-avatar6.jpg" alt=""></figure>
+                        <div class="friend-meta">
+                          <h4><a href="ProfilePageFriends.html">Mohamed nabil</a></h4>
+                          <a href="#">Online</a>
+                        </div>
                       </li>
                     </ul>
                   </div>

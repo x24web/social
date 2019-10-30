@@ -1029,6 +1029,45 @@ a:hover {
   font-weight: 400;
   color: #2c57e4;
 }
+.widget .socials > li {
+  margin-bottom: 10px;
+}
+.widget .socials > li > a {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #797979;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  margin: 0;
+}
+.widget .socials > li > a i {
+  color: #fff;
+  font-size: 25px;
+}
+.widget .socials > li span:first-child {
+  width: 35%;
+}
+.widget .socials > li span {
+  font-size: 13px;
+  color: #fff;
+}
+.widget .socials > li ins {
+  font-size: 12px;
+  margin-top: 4px;
+  color: #fff;
+}
+.widget .socials > li.facebook {
+  background: #2f5b9d;
+}
+.widget .socials > li.twitter {
+  background: #38bff1;
+}
+.widget .socials > li.instagram {
+  background: #f24756;
+}
 
 .center-meta {
   background: #fdfdfd;

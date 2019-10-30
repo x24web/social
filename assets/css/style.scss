@@ -955,6 +955,45 @@ form button {
       }
     }
   }
+  .socials > li{
+    margin-bottom: 10px;
+    > a{
+      font-size: 14px;
+      text-transform: capitalize;
+      font-weight: 400;
+      color: #797979;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 8px;
+      margin: 0;
+      i{
+        color: #fff;
+        font-size: 25px;
+      }
+    }
+    span:first-child{
+      width: 35%;
+    }
+    span{
+      font-size: 13px;
+      color: #fff;
+    }
+    ins{
+      font-size: 12px;
+      margin-top: 4px;
+      color: #fff;
+    }
+    &.facebook{
+      background: #2f5b9d;
+    }
+    &.twitter {
+      background: #38bff1;
+    }
+    &.instagram {
+      background: #f24756;
+    }
+  }
 }
 .center-meta{
   background: #fdfdfd;
