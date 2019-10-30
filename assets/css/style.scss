@@ -720,7 +720,6 @@ a:hover {
     display: block;
     visibility: hidden;
     opacity: 0;
-    pointer-event: none;
   }
   .cd-main-nav.moves-out > li > a {
     -webkit-transform: translateX(0);
@@ -1200,7 +1199,7 @@ form button {
       border-radius: 50px;
       a{
         color: #fff;
-        font-size: 18px;
+        font-size: 15px;
       }
     }
   }

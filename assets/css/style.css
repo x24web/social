@@ -787,7 +787,6 @@ a:hover {
     display: block;
     visibility: hidden;
     opacity: 0;
-    pointer-event: none;
   }
 
   .cd-main-nav.moves-out > li > a {
@@ -1276,7 +1275,7 @@ a:hover {
 }
 .profile-page .nav .nav-item a {
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
